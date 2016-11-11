@@ -1,0 +1,74 @@
+#main-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/*Screens smaller than the combined minimum width of 9 columns*/
+@media (max-width:550px) {
+    .main-table__col_win,
+    .main-table__col_draw,
+    .main-table__col_lose,
+    .main-table__col_goals,
+    .main-table__col_conceded_goals {
+        display: none;
+    }
+}
+
+.main-table__col_place,
+.main-table__col_matches,
+.main-table__col_win,
+.main-table__col_draw,
+.main-table__col_lose,
+.main-table__col_goals,
+.main-table__col_conceded_goals,
+.main-table__col_score {
+    width: 40px;
+    min-width: 40px;
+    height: 30px;
+    border-top: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
+    text-align: right;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.main-table__col_score {
+    background-color: #F9F9F7;
+}
+
+.main-table__col_place {
+    text-align: center; !important
+}
+
+.main-table__col_name {
+    min-width: 150px;
+    border-top: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
+    border-right: 1px solid #D8D8D8;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.main-table__col_name a {
+    color: #458EB2;
+}
+
+.col_header-blue {
+    color: #026597;
+}
+
+.main-table__img_flag {
+    margin-right: 4px;
+}
+
+.main-table__col_place-green {
+    background-color: #80D499;
+}
+
+.main-table__col_place-light-green {
+    background-color: #CCEED6;
+}
+
+.main-table__col_place-red {
+    background-color: #FF9AB1;
+}
