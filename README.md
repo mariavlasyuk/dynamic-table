@@ -1,3 +1,1 @@
-﻿#Турнирная Таблица Чемпионата
-
-Пример динамического формирования таблицы на стороне браузера из данных JSON-файла с использованием JavaScript/JQuery и HTML/CSS. 
+Dynamically formed table on the client-side using JSON-file data (JavaScript/JQuery и HTML/CSS).
